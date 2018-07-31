@@ -30,9 +30,24 @@
 {
  width: 1336px;
  height:57px;
- background-color:#CCCCCC
+ background-color:#CCCCCC;
+ padding-left: 161px;
 }
 .float-right
 {
 	float: right;
 }
+li{
+	display: inline;
+}
+#middle-img
+{
+	margin-left: 53px;
+}
+.last-img
+{
+	float: right;
+	
+}
+
+
