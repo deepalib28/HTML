@@ -1,11 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 *{
 	padding:0;
-	margin:0
+	margin:0;
 }
 
 #header{
-
- width: 1340px;
  height:50px;
  background-color:#000000
 }
@@ -14,40 +14,70 @@
 	float:left;
 	width:70px;
 	height:42px;
-	margin-left:174px;
 }
 .banner
 {
 	width:100%;
 	height:320px;
+	overflow: hidden;
+}
+.banner img {
+	width: 100%;
 }
 .container
 {
-	width:1036px;
-	padding-left: 166px;
+	width:1000px;
+	margin: 0 auto 0 auto;
 }
 #footer
 {
- width: 1336px;
- height:57px;
+ height:56px;
  background-color:#CCCCCC;
- padding-left: 161px;
 }
 .float-right
 {
 	float: right;
 }
-li{
-	display: inline;
-}
-#middle-img
+
+ul.card
 {
-	margin-left: 53px;
+	margin-left: -17px;
+	margin-right: -17px;
 }
-.last-img
+ul li {
+	list-style: none; 	/* to remove dots of li */
+	float: left;
+	margin: 0 17px;
+}
+.link
 {
-	float: right;
-	
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 14px;
+}
+a{
+	text-decoration: none;
 }
 
+.btn
+{
+	font-family: 'Antonio Regular';
+	height: 44px;
+	color: #ffffff;
+	background-color:#69A41E;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-size: 24px;
+	margin-left: 11px;
+}
 
+.main-content{
+	padding: 40px 0 42px 0;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
